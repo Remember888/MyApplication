@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_login"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.musicplayer.LoginActivity">
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/ic_menu_call"
+        android:id="@+id/iv_call" />
+
+    <EditText
+        android:layout_alignLeft="@+id/et_passage"
+        android:layout_toEndOf="@+id/iv_call"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:maxLength="12"
+        android:hint="请输入手机号码"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/et_call" />
+
+
+    <ImageView
+        android:layout_toEndOf="@+id/et_call"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_menu_cance"
+        android:id="@+id/iv_error" />
+
+    <ImageView
+        android:layout_below="@+id/iv_call"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/ic_menu_account_list"
+        android:id="@+id/iv_passage"
+        android:layout_width="wrap_content" />
+
+    <EditText
+        android:layout_toEndOf="@+id/iv_passage"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:layout_alignBottom="@+id/iv_passage"
+        android:id="@+id/et_passage" />
+
+    <CheckBox
+        android:layout_toEndOf="@+id/et_passage"
+        android:text="CheckBox"
+        android:layout_width="50dp"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_passage"
+        android:layout_alignBottom="@+id/iv_passage"
+        android:layout_alignTop="@+id/iv_passage"
+        android:button="@drawable/check_selector" />
+
+    <CheckBox
+        android:layout_below="@+id/iv_passage"
+        android:text="记住密码"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_check"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:text="登录"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btn_login"
+        android:textSize="20dp"
+        android:background="@drawable/btn_selector"
+        android:gravity="center"
+        android:layout_below="@+id/cb_check"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

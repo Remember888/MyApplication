@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <include
+        android:id="@+id/actionbar_radio02"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        layout="@layout/pubic_title" />
+    <GridView
+
+        android:id="@+id/gv_radio02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="5dp"
+        style="@style/list_style"
+        android:numColumns="3"
+        android:horizontalSpacing="10dp"
+        android:paddingStart="10dp"
+        android:verticalSpacing="10dp"
+        >
+
+    </GridView>
+
+</LinearLayout>

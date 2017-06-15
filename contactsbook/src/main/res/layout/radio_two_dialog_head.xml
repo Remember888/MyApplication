@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/r01"
+        android:layout_width="match_parent"
+        android:layout_height="115dp">
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_marginTop="35dp"
+        android:background="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_dark">
+        <ImageView
+           android:id="@+id/iv1_head_radio02_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_close"
+            android:layout_margin="10dp"
+            android:layout_alignParentEnd="true"
+            />
+        <ImageView
+            android:id="@+id/iv2_head_radio02_dialog"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/ic_edit"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_title_head_radio02_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/iv3_head_radio02_dialog"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/r02"
+        android:layout_below="@+id/r01"
+        android:background="#FFFAE3"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="0.5dp"
+        android:paddingBottom="5dp"
+        android:layout_height="90dp">
+        <TextView
+            android:id="@+id/tv02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系人电话"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="10dp"
+        />
+        <ImageView
+            android:id="@+id/iv_phone_radio02_dialog"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/ic_more"
+            android:layout_margin="21dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_phone_radio02_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dda"
+            android:textSize="20dp"
+            android:layout_below="@id/tv02"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r03"
+        android:background="#FFFAE3"
+        android:layout_below="@+id/r02"
+        android:layout_marginBottom="0.5dp"
+        android:paddingBottom="0.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <TextView
+            android:id="@+id/tv03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公司地址"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:id="@+id/iv_address_radio02_dialog"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/ic_more"
+            android:layout_margin="21dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_address_radio02_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dda"
+            android:textSize="20dp"
+            android:layout_below="@id/tv03"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r04"
+        android:layout_below="@+id/r03"
+        android:background="#FFFAE3"
+        android:paddingBottom="0.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <TextView
+            android:id="@+id/tv04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:id="@+id/iv_email_radio02_dialog"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/ic_more"
+            android:layout_margin="21dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_email_radio02_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dda"
+            android:textSize="20dp"
+            android:layout_below="@id/tv04"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

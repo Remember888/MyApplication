@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/iv_guide"
+/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+
+        >
+
+        <RadioButton
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_first"
+            android:layout_weight="1"
+            android:checked="true"/>
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_second"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_third"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:text="游客登录"
+            android:background="@drawable/btn_selector"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_tourist"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="用户登录"
+            android:background="@drawable/btn_selector"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_user"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</RelativeLayout>

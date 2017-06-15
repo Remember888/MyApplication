@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="75dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/widget_shape">
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="歌名: "/>
+        <TextView
+            android:id="@+id/tv_name_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_toEndOf="@+id/textview"
+            android:text="dfds"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/textview2"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="演唱： "
+            android:gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/textview"/>
+        <TextView
+            android:id="@+id/tv_singer_widget"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textview2"
+            android:layout_alignBottom="@+id/textview2"
+            android:gravity="bottom"
+            android:text="dfdsa"
+            android:layout_below="@id/tv_singer_widget"/>
+        <LinearLayout
+            android:layout_toEndOf="@+id/tv_singer_widget"
+            android:orientation="horizontal"
+            android:layout_marginStart="50dp"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/ib_play"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/play"/>
+            <ImageButton
+                android:id="@+id/ib_pause"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/pause"
+                android:visibility="gone"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/ib_next"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/next"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

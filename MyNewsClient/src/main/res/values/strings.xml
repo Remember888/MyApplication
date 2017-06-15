@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyNewsClient</string>
+    <string name="open_draw" />
+    <string name="close_draw" />
+</resources>

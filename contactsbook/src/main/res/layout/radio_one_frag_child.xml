@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <ImageView
+        android:id="@+id/iv_radio01"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        android:layout_margin="10dp"
+        android:layout_width="60dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/tv1_radio01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_toEndOf="@+id/iv_radio01"
+        />
+    <ImageView
+        android:id="@+id/iv01_outgoing_radio01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/iv_radio01"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="15dp"
+        android:layout_below="@id/tv1_radio01"
+        android:src="@mipmap/ic_outgoing_call"/>
+    <TextView
+        android:id="@+id/tv2_radio01"
+        android:text="dfd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1_radio01"
+        android:layout_toEndOf="@id/iv01_outgoing_radio01"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        android:layout_marginStart="5dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv3_radio01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:layout_alignParentEnd="true"
+        />
+</RelativeLayout>

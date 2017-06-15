@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_01"
+        android:title="北京" />
+    <item
+        android:id="@+id/item_02"
+        android:title="上海" />
+    <item
+        android:id="@+id/item_03"
+        android:title="深圳" />
+    <item
+        android:id="@+id/item_04"
+        android:title="成都" />
+    <item
+        android:id="@+id/item_05"
+        android:title="西安" />
+    <item
+        android:id="@+id/item_06"
+        android:title="铁岭" />
+</menu>

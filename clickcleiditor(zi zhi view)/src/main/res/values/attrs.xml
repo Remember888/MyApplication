@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>\
+    <declare-styleable name="ClickcleIdtor">
+        <attr name="redius" format="integer" />
+        <attr name="num" format="integer"/>
+    </declare-styleable>
+        
+</resources>

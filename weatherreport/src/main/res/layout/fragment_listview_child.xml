@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_list_weather"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lotcloudy"/>
+    <TextView
+        android:id="@+id/tv_list_weather"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="12132"
+        android:layout_toEndOf="@+id/iv_list_weather"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_list_temp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="12132"
+        android:layout_toEndOf="@+id/tv_list_weather"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_list_week"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="12132"
+        android:layout_toEndOf="@+id/tv_list_temp"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
